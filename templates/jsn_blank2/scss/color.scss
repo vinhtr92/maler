@@ -1,0 +1,134 @@
+/* ============================ */
+$main-color: false !default;
+@if($main-color != false) {
+	.sunfw-content { 
+		.main-color{
+			color: $main-color;
+		}
+		.bg-main-color{
+			background: $main-color;
+		}
+	}
+	ul {
+		&.newsfeed,
+		&.archive-module,
+		&.relateditems,
+		&.categories-module,
+		&.category-module,
+		&.mostread,
+		&.latestnews,
+		&.latestusers {
+			li {
+				color: $main-color;
+				a * {
+					color: $main-color;
+				}
+			}
+		}
+		&.categories-module ul {
+			li {
+				color: $main-color;
+			}
+		}
+	}
+	.item-page.edit #com-content-formTabs > li {
+		&.active {
+			> a:hover,
+			> a {
+				border-top-color: $main-color;
+			}
+		}
+	}
+	.label-info[href]:hover, .label-info[href]:focus,
+	.content_rating + form input[name="submit_vote"] {
+		background: $main-color;
+	}
+	ul.nav[class*='menu-treemenu'] li a:hover{
+		color: $main-color;
+	}
+	.color-img img {
+		background-color: $main-color;
+	}
+	.bg-main-color {
+		.jsn-es-background {
+			background-color: $main-color !important;
+		}
+	}
+	ul	{
+		&.nav[class*='menu-treemenu'] {
+			li {
+				&.active,
+				&.current {
+					> a,
+					>span.nav-header {
+						color: $main-color;
+					}
+				}
+			}
+		}
+	}
+	ul.nav[class*='menu-sidemenu'] {
+		li {
+			&:hover > {
+				a, 
+				span.nav-header,
+				span.separator{
+					color: $main-color;
+				}
+			}
+			&.active {
+				> a, 
+				> span.nav-header,
+				> span.separator{
+					color: $main-color !important;
+				}
+			}
+		}
+	}
+	ul.nav.menu li a:hover,
+	.btn.btn-plain:hover {
+		color: $main-color;
+	}
+	.bg-2nd-subcolor {
+		background-color: darken(desaturate(adjust-hue($main-color, 8.5042%), 76.5101%), 20.7843%);
+	}
+	.sunfw-scrollup:hover {
+		background-color: desaturate(adjust-hue($main-color, 8.6815%), 88.6275%);
+	}
+	nav.navbar.sunfw-menu-head ul.navbar-nav {
+		> li {
+			&:hover,
+			&.active {
+				> a,
+				> span.nav-header {
+					color: $main-color;
+				}
+			}
+		}
+	}
+}
+/* ============================ Sub Color ============================ */
+$sub-color: false !default;
+@if($sub-color != false){
+	&.nav[class*='menu-'] {
+		li a.get-it {
+			&.btn-primary {
+				&:hover {
+					background-color: $sub-color;
+				}
+			}
+		}
+	}
+	nav.navbar.sunfw-menu-head ul.navbar-nav {
+		> li {
+			> a.get-it	{
+				&.btn-primary {
+					&:hover,
+					&:focus {
+						background-color: $sub-color;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,161 @@
+
+// ======================================
+// ---------- Item Back To Top ----------
+// ======================================
+
+.scrollup {
+    // position: fixed;
+    // bottom: 40px;
+    // right: 40px;
+    // @include size(40px, 40px);
+    // line-height: 35px;
+    // text-align: center;
+    // border-radius: 50%;
+    // border: 1px solid #000;
+    // z-index: 999;
+
+    // .fa {
+        //     color: #000;
+        // }
+    }
+
+    // ======================================
+    // --------------- Logo -----------------
+    // ======================================
+
+    .sunfw-logo {
+    }
+
+    // ======================================
+    // --------------- Copyright ------------
+    // ======================================
+
+
+    .copyright {
+
+    }
+
+    // ======================================
+    // ------------- Social Icon ------------
+    // ======================================
+
+    .sunfw-social {
+        li {
+            text-align: center;
+            text-align: center;
+            margin: 0px 5px;
+            padding: 0;
+            margin: 0;
+            transition: all 0.3s ease-in-out;
+            a {
+                i{
+                    @include size(30px, 30px);
+                    line-height: 30px;
+                    border-radius: 50%;
+
+                    margin: 0;
+                    &.fa-facebook{
+                        color: #3B5999;
+                    }
+                    &.fa-twitter{
+                        color: #55ACEE;
+                    }
+                    &.fa-instagram{
+                        color: #000;
+                    }
+                    &.fa-pinterest{
+                        color: #FF0000;
+                    }
+                    &.fa-youtube-play{
+                        color: #FF0000;
+                    }
+                    &.fa-google-plus{
+                        color: #DD5643;
+                    }
+                    &.fa-linkedin{
+                        color: #0077B7;
+                    }
+                    &.fa-dribbble{
+                        color: #DD3E7B;
+                    }
+                    &.fa-behance{
+                        color: #8F00FF;
+                    }
+                    &.fa-flickr{
+                        color: #3F84E1;
+                    }
+                    &.fa-skype{
+                        color: #00B8ED;
+                    }
+                    &.fa-vk{
+                        color: #5181B8;
+                    }
+                }
+                span{
+                    display: inline-block;                    
+                }
+            }
+        }
+    }
+
+    // ======================================
+    // ------------- Cookia-low -------------
+    // ======================================
+
+    .cookialaw {
+        display: none;
+        z-index: 999;
+        p {
+            line-height: 34px;
+            margin-bottom: 0;
+        }
+
+        &.top {
+            top: 0;
+        }
+
+        &.left {
+            @include rtl-left(0);
+        }
+
+        &.right {
+            @include rtl-right(0);
+        }
+
+        &.bottom {
+            bottom: 0;
+        }
+
+        &.fixed {
+            position: fixed;
+        }
+
+        &.full {
+            width: 100%;
+        }
+
+        &.show {
+            display: block;
+        }
+
+    }
+
+    // ======================================
+    // ------------- Custom HTML ------------
+    // ======================================
+
+    .custom-html {
+
+    }
+
+    // ======================================
+    // ------------- Subscribe ------------
+    // ======================================
+
+    .subscribe {
+      .btn {
+        line-height: 20px;
+        border-radius: 0;
+    }  
+}
+

@@ -1,0 +1,4 @@
+
+DROP TABLE IF EXISTS `#__jsn_pagebuilder3_elements`;
+
+CREATE TABLE IF NOT EXISTS `#__jsn_pagebuilder3_elements` ( `id` INT(11) NOT NULL AUTO_INCREMENT, `type` VARCHAR(255) NOT NULL, `status` VARCHAR(15) DEFAULT 'normal', `data` MEDIUMTEXT NULL DEFAULT NULL , `html` MEDIUMTEXT NULL DEFAULT NULL , `updated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`id`), INDEX (`status`), INDEX (`type`)) ENGINE = InnoDB;

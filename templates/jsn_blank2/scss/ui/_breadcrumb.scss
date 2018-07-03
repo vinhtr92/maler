@@ -1,0 +1,37 @@
+.breadcrumb {
+	padding: 9px 0;
+    background-color: transparent;
+	margin: 0 -2px;
+	font-size: 0.9em;
+    li a:hover{
+    	color: #8899AC;
+    }
+    span.divider{
+    	display: none;
+    }
+    li + li:before{
+    	content: '\f105';
+    	font-family: 'FontAwesome';
+    	color: #394a5c;
+    }
+    li:first-child + li:before{
+    	display: none;
+    }
+	> li {
+		padding: 0;
+	}
+}
+.dark-bg {
+	li + li:before{
+    	content: '\f105';
+    	font-family: 'FontAwesome';
+    	color: #fff;
+    }
+	.breadcrumb {
+		padding: 0;
+		li > span[itemprop="name"],
+		> .active {
+			color: #fff;
+		}
+	}
+}

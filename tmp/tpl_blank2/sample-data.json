@@ -1,0 +1,33 @@
+{
+  "developer": [
+    {
+      "id": "blank2",
+      "name": "JSN Blank 2",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_blank_2/thumbnail.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_blank_2/pro/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_blank_2_pro_sample_data_j3x.zip",
+      "tags": []
+    }
+  ],
+  "individual": [
+    {
+      "id": "blank2",
+      "name": "JSN Blank 2",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_blank_2/thumbnail.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_blank_2/pro/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_blank_2_pro_sample_data_j3x.zip",
+      "tags": []
+    }
+  ],
+  "free": [
+    {
+      "id": "blank2",
+      "name": "JSN Blank 2",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_blank_2/thumbnail.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_blank_2/pro/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_blank_2_pro_sample_data_j3x.zip",
+      "tags": []
+    }
+  ]
+}
+

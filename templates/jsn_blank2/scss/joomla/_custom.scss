@@ -1,0 +1,17 @@
+.items-border > li {
+	border-bottom: 1px solid #E7EAEE;
+}
+
+
+// Fix JSN ImageShow Theme Masonry.
+@media (max-width: $screen-xs-max) {
+	[id*='jsn-thememasonry-container'] .jsn-is-msnry-grid {
+	     width: 100% !important; 
+	}
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	.jsn-is-msnry-grid {
+	    margin: 0 auto;
+	}
+}
