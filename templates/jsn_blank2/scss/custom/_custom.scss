@@ -1,0 +1,149 @@
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+
+$gray-450:	#dbe1e7;
+$gray-500: #adb5bd !default;
+$gray-600: #5e6b76;
+$gray-700: #495057 !default;
+$gray-800: #243341;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$grays: () !default;
+$grays: map-merge((
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+), $grays);
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #ff6c00;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$colors: () !default;
+$colors: map-merge((
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+), $colors);
+
+$primary:       $orange;
+$secondary:     $gray-450;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+$theme-colors: () !default; 
+$theme-colors: map-merge((
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+	"dark":       $dark,
+), $theme-colors);
+
+@each $color, $value in $theme-colors {
+    .btn-gradient-#{$color} {
+        background-image: radial-gradient(circle at 0 0, lighten($value,10%), $value);
+        &:focus,
+        &:active {
+            background-image: radial-gradient(circle at 0 0, lighten($value,10%), $value);
+            box-shadow: 0 0 0 0.2rem  rgba($value,0.7) !important;
+        }
+
+        
+    }
+  }
+  
+
+$primary-color : $orange;
+$warning-color : $yellow;
+$body-bg:               #fff !default;
+$border-radius-small:       3px;
+
+
+// $brand-primary : $primary-color;
+$brand-warning:        	$warning-color ;
+$border-radius-large: $border-radius-small;
+
+
+
+// $input-border-radius:            3px;
+
+.btn {
+      display: inline-block;
+      margin-bottom: 0; // For input.btn
+      font-weight: $btn-font-weight;
+      text-align: center;
+      vertical-align: middle;
+      touch-action: manipulation;
+      cursor: pointer;
+      background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+      border: 1px solid transparent;
+      white-space: nowrap;
+      @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $btn-border-radius-base);
+      @include user-select(none);
+    
+      &,
+      &:active,
+      &.active {
+        &:focus,
+        &.focus {
+          @include tab-focus;
+        }
+      }
+    
+      &:hover,
+      &:focus,
+      &.focus {
+        color: $btn-default-color;
+        text-decoration: none;
+      }
+    
+      &:active,
+      &.active {
+        outline: 0;
+        background-image: none;
+        @include box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
+      }
+    
+      &.disabled,
+      &[disabled],
+      fieldset[disabled] & {
+        cursor: $cursor-disabled;
+        @include opacity(.65);
+        @include box-shadow(none);
+      }
+    

@@ -21,54 +21,54 @@ a {
 		@include rtl-margin-right(8px);
 	}
 }
-.btn {
-	padding: 15px 30px;
-    border-radius: 0;
-	border: none;
-	transition: all 0.3s ease-in-out;
-	&[class*="btn-"] {
-		transition: all 0.3s ease-in-out;
-	}
-	&.btn-small,
-	&.btn-mini {
-		padding-top: 8px;
-		padding-bottom: 8px;
-		line-height: 1.4;
-	}
-	&.btn-plain {
-		padding: 3px 5px;
-		&:hover {
-			background-color: #F7F7F7;
-		}
-	}
-	&.btn-mini:not(.btn-primary),
-	&.btn-small:not(.btn-primary) {
-		background: #717f8e;
-		color: #ffffff;
-	}
-	&.btn-outline {
-		border: 1px solid #D1D6DE;
-		color: #394A5C;
-		padding-top: 14px;
-		padding-bottom: 14px;
-		padding: 15px 30px;
-		&:hover {
-			background-color: #F0F2F5;
-		}
-	}
-	&.btn-default.disabled:hover, &.btn-default[disabled]:hover, &.btn-default.disabled:focus, &.btn-default[disabled]:focus, &.btn-default.disabled.focus, &.btn-default[disabled].focus {
-		background-color: #8596a9;
-	}
-	&:not([class*="toggle"]):not(.modal) i.fa {
-		@include rtl-margin-right(10px);
-	}
-	&[class*="btn-"] + .btn[class*="btn-"] {
-		@include rtl-margin-left(5px);
-	}
-	&.full-width {
-		width: 100%;
-	}
-}
+// .btn {
+// 	padding: 15px 30px;
+//     border-radius: 0;
+// 	border: none;
+// 	transition: all 0.3s ease-in-out;
+// 	&[class*="btn-"] {
+// 		transition: all 0.3s ease-in-out;
+// 	}
+// 	&.btn-small,
+// 	&.btn-mini {
+// 		padding-top: 8px;
+// 		padding-bottom: 8px;
+// 		line-height: 1.4;
+// 	}
+// 	&.btn-plain {
+// 		padding: 3px 5px;
+// 		&:hover {
+// 			background-color: #F7F7F7;
+// 		}
+// 	}
+// 	&.btn-mini:not(.btn-primary),
+// 	&.btn-small:not(.btn-primary) {
+// 		background: #717f8e;
+// 		color: #ffffff;
+// 	}
+// 	&.btn-outline {
+// 		border: 1px solid #D1D6DE;
+// 		color: #394A5C;
+// 		padding-top: 14px;
+// 		padding-bottom: 14px;
+// 		padding: 15px 30px;
+// 		&:hover {
+// 			background-color: #F0F2F5;
+// 		}
+// 	}
+// 	&.btn-default.disabled:hover, &.btn-default[disabled]:hover, &.btn-default.disabled:focus, &.btn-default[disabled]:focus, &.btn-default.disabled.focus, &.btn-default[disabled].focus {
+// 		background-color: #8596a9;
+// 	}
+// 	&:not([class*="toggle"]):not(.modal) i.fa {
+// 		@include rtl-margin-right(10px);
+// 	}
+// 	&[class*="btn-"] + .btn[class*="btn-"] {
+// 		@include rtl-margin-left(5px);
+// 	}
+// 	&.full-width {
+// 		width: 100%;
+// 	}
+// }
 .element-invisible {
 	position: absolute;
 	padding: 0;

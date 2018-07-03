@@ -1,5 +1,5 @@
 // var theme config
-@import "../vars/var";
+@import "../custom/custom";
 
 $bootstrap-sass-asset-helper: false !default;
 //
@@ -33,7 +33,7 @@ $header-color: #333 !default;
 
 $border-color-base: #ece6e6 !default;
 
-$primary-color: #FF9C00 !default;
+// $primary-color: #FF9C00 !default;
 
 $secondary-color: #261C15 !default;
 

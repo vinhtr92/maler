@@ -2,6 +2,166 @@
  * JoomlaShine FW
  */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,600,700");
+.btn-gradient-primary {
+  background-image: radial-gradient(circle at 0 0, #ff8933, #ff6c00);
+}
+
+.btn-gradient-primary:focus, .btn-gradient-primary:active {
+  background-image: radial-gradient(circle at 0 0, #ff8933, #ff6c00);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 108, 0, 0.7) !important;
+          box-shadow: 0 0 0 0.2rem rgba(255, 108, 0, 0.7) !important;
+}
+
+.btn-gradient-secondary {
+  background-image: radial-gradient(circle at 0 0, #fafbfb, #dbe1e7);
+}
+
+.btn-gradient-secondary:focus, .btn-gradient-secondary:active {
+  background-image: radial-gradient(circle at 0 0, #fafbfb, #dbe1e7);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(219, 225, 231, 0.7) !important;
+          box-shadow: 0 0 0 0.2rem rgba(219, 225, 231, 0.7) !important;
+}
+
+.btn-gradient-success {
+  background-image: radial-gradient(circle at 0 0, #34ce57, #28a745);
+}
+
+.btn-gradient-success:focus, .btn-gradient-success:active {
+  background-image: radial-gradient(circle at 0 0, #34ce57, #28a745);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.7) !important;
+          box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.7) !important;
+}
+
+.btn-gradient-info {
+  background-image: radial-gradient(circle at 0 0, #1fc8e3, #17a2b8);
+}
+
+.btn-gradient-info:focus, .btn-gradient-info:active {
+  background-image: radial-gradient(circle at 0 0, #1fc8e3, #17a2b8);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.7) !important;
+          box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.7) !important;
+}
+
+.btn-gradient-warning {
+  background-image: radial-gradient(circle at 0 0, #ffce3a, #ffc107);
+}
+
+.btn-gradient-warning:focus, .btn-gradient-warning:active {
+  background-image: radial-gradient(circle at 0 0, #ffce3a, #ffc107);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.7) !important;
+          box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.7) !important;
+}
+
+.btn-gradient-danger {
+  background-image: radial-gradient(circle at 0 0, #e4606d, #dc3545);
+}
+
+.btn-gradient-danger:focus, .btn-gradient-danger:active {
+  background-image: radial-gradient(circle at 0 0, #e4606d, #dc3545);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.7) !important;
+          box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.7) !important;
+}
+
+.btn-gradient-light {
+  background-image: radial-gradient(circle at 0 0, white, #f8f9fa);
+}
+
+.btn-gradient-light:focus, .btn-gradient-light:active {
+  background-image: radial-gradient(circle at 0 0, white, #f8f9fa);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.7) !important;
+          box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.7) !important;
+}
+
+.btn-gradient-dark {
+  background-image: radial-gradient(circle at 0 0, #364d62, #243341);
+}
+
+.btn-gradient-dark:focus, .btn-gradient-dark:active {
+  background-image: radial-gradient(circle at 0 0, #364d62, #243341);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(36, 51, 65, 0.7) !important;
+          box-shadow: 0 0 0 0.2rem rgba(36, 51, 65, 0.7) !important;
+}
+
+.btn-gradient-primary {
+  background-image: radial-gradient(circle at 0 0, #ff8933, #ff6c00);
+}
+
+.btn-gradient-primary:focus, .btn-gradient-primary:active {
+  background-image: radial-gradient(circle at 0 0, #ff8933, #ff6c00);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 108, 0, 0.7) !important;
+          box-shadow: 0 0 0 0.2rem rgba(255, 108, 0, 0.7) !important;
+}
+
+.btn-gradient-secondary {
+  background-image: radial-gradient(circle at 0 0, #fafbfb, #dbe1e7);
+}
+
+.btn-gradient-secondary:focus, .btn-gradient-secondary:active {
+  background-image: radial-gradient(circle at 0 0, #fafbfb, #dbe1e7);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(219, 225, 231, 0.7) !important;
+          box-shadow: 0 0 0 0.2rem rgba(219, 225, 231, 0.7) !important;
+}
+
+.btn-gradient-success {
+  background-image: radial-gradient(circle at 0 0, #34ce57, #28a745);
+}
+
+.btn-gradient-success:focus, .btn-gradient-success:active {
+  background-image: radial-gradient(circle at 0 0, #34ce57, #28a745);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.7) !important;
+          box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.7) !important;
+}
+
+.btn-gradient-info {
+  background-image: radial-gradient(circle at 0 0, #1fc8e3, #17a2b8);
+}
+
+.btn-gradient-info:focus, .btn-gradient-info:active {
+  background-image: radial-gradient(circle at 0 0, #1fc8e3, #17a2b8);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.7) !important;
+          box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.7) !important;
+}
+
+.btn-gradient-warning {
+  background-image: radial-gradient(circle at 0 0, #ffce3a, #ffc107);
+}
+
+.btn-gradient-warning:focus, .btn-gradient-warning:active {
+  background-image: radial-gradient(circle at 0 0, #ffce3a, #ffc107);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.7) !important;
+          box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.7) !important;
+}
+
+.btn-gradient-danger {
+  background-image: radial-gradient(circle at 0 0, #e4606d, #dc3545);
+}
+
+.btn-gradient-danger:focus, .btn-gradient-danger:active {
+  background-image: radial-gradient(circle at 0 0, #e4606d, #dc3545);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.7) !important;
+          box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.7) !important;
+}
+
+.btn-gradient-light {
+  background-image: radial-gradient(circle at 0 0, white, #f8f9fa);
+}
+
+.btn-gradient-light:focus, .btn-gradient-light:active {
+  background-image: radial-gradient(circle at 0 0, white, #f8f9fa);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.7) !important;
+          box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.7) !important;
+}
+
+.btn-gradient-dark {
+  background-image: radial-gradient(circle at 0 0, #364d62, #243341);
+}
+
+.btn-gradient-dark:focus, .btn-gradient-dark:active {
+  background-image: radial-gradient(circle at 0 0, #364d62, #243341);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(36, 51, 65, 0.7) !important;
+          box-shadow: 0 0 0 0.2rem rgba(36, 51, 65, 0.7) !important;
+}
+
 label {
   font-weight: normal;
 }
@@ -396,76 +556,6 @@ a > i[class*="fa-"] {
 .sunfw-direction-rtl a > i[class*="fa-"] {
   margin-left: 8px;
   margin-right: inherit;
-}
-
-.btn {
-  padding: 15px 30px;
-  border-radius: 0;
-  border: none;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.btn[class*="btn-"] {
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.btn.btn-small, .btn.btn-mini {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  line-height: 1.4;
-}
-
-.btn.btn-plain {
-  padding: 3px 5px;
-}
-
-.btn.btn-plain:hover {
-  background-color: #F7F7F7;
-}
-
-.btn.btn-mini:not(.btn-primary), .btn.btn-small:not(.btn-primary) {
-  background: #717f8e;
-  color: #ffffff;
-}
-
-.btn.btn-outline {
-  border: 1px solid #D1D6DE;
-  color: #394A5C;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding: 15px 30px;
-}
-
-.btn.btn-outline:hover {
-  background-color: #F0F2F5;
-}
-
-.btn.btn-default.disabled:hover, .btn.btn-default[disabled]:hover, .btn.btn-default.disabled:focus, .btn.btn-default[disabled]:focus, .btn.btn-default.disabled.focus, .btn.btn-default[disabled].focus {
-  background-color: #8596a9;
-}
-
-.btn:not([class*="toggle"]):not(.modal) i.fa {
-  margin-right: 10px;
-}
-
-.sunfw-direction-rtl .btn:not([class*="toggle"]):not(.modal) i.fa {
-  margin-left: 10px;
-  margin-right: inherit;
-}
-
-.btn[class*="btn-"] + .btn[class*="btn-"] {
-  margin-left: 5px;
-}
-
-.sunfw-direction-rtl .btn[class*="btn-"] + .btn[class*="btn-"] {
-  margin-right: 5px;
-  margin-left: inherit;
-}
-
-.btn.full-width {
-  width: 100%;
 }
 
 .element-invisible {
